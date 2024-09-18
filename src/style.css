@@ -17,15 +17,13 @@ body {
 }
 
 .flag_bg {
-  background: linear-gradient(
-    180deg,
-    #f5f5f5 0%,
-    #7985f5 26.55%,
-    #4051ed 37.39%,
-    #803f84 66.1%,
-    #d33457 74.71%,
-    #f33636 100%
-  );
+  background: linear-gradient(180deg,
+      #f5f5f5 0%,
+      #7985f5 26.55%,
+      #4051ed 37.39%,
+      #803f84 66.1%,
+      #d33457 74.71%,
+      #f33636 100%);
 }
 
 .blackBox {
@@ -40,7 +38,7 @@ body {
   border-radius: 80px;
 }
 
-.bBoxText > p:first-child {
+.bBoxText>p:first-child {
   /* Learn Russian fast */
 
   font-family: "Be Vietnam Pro";
@@ -50,11 +48,19 @@ body {
   color: #ebecf5;
 }
 
-.bBoxText > p {
+.bBoxText>p {
   /* Learn Russian fast */
 
   font-family: "Be Vietnam Pro";
   font-weight: 600;
 
   color: #ebecf5;
+}
+
+.flagsBox {
+  width: 509px;
+
+
+  background: #5A69F0;
+  border-radius: 36px;
 }
