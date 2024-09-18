@@ -576,6 +576,10 @@ video {
   margin-bottom: 0.75rem;
 }
 
+.mb-6 {
+  margin-bottom: 1.5rem;
+}
+
 .mt-2 {
   margin-top: 0.5rem;
 }
@@ -599,17 +603,14 @@ video {
   display: none;
 }
 
-.h-36 {
-  height: 9rem;
-}
-
-.h-auto {
-  height: auto;
-}
-
 .h-fit {
   height: -moz-fit-content;
   height: fit-content;
+}
+
+.min-h-max {
+  min-height: -moz-max-content;
+  min-height: max-content;
 }
 
 .w-full {
@@ -618,6 +619,10 @@ video {
 
 .flex-auto {
   flex: 1 1 auto;
+}
+
+.shrink {
+  flex-shrink: 1;
 }
 
 .grow-0 {
@@ -705,8 +710,25 @@ video {
   padding-bottom: 2rem;
 }
 
+.py-6 {
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+}
+
 .pl-4 {
   padding-left: 1rem;
+}
+
+.pt-6 {
+  padding-top: 1.5rem;
+}
+
+.pt-4 {
+  padding-top: 1rem;
+}
+
+.pt-0 {
+  padding-top: 0px;
 }
 
 .text-center {
@@ -813,6 +835,47 @@ body {
   color: #ebecf5;
 }
 
+.flagsBox {
+  position: relative;
+  width: 509px;
+  height: 214px;
+  background: #5a69f0;
+  border-radius: 36px;
+}
+
+.flagsBox > img {
+  /* Group 22 */
+  position: absolute;
+  width: 146.68px;
+  height: 116px;
+  left: 340px;
+  top: 96px;
+}
+
+.laptopBox {
+  position: relative;
+  width: 509px;
+  height: 214px;
+  background: #ffffff;
+  border-radius: 36px;
+}
+
+.laptopBox > img {
+  /* Group 57 */
+  position: absolute;
+  width: 217.16px;
+  height: 119px;
+  left: 260px;
+  top: 96px;
+}
+
+.planetBox {
+  width: 509px;
+  height: 452px;
+  background-color: #231d26;
+  border-radius: 36px;
+}
+
 .placeholder\:font-sans::-moz-placeholder {
   font-family: ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
@@ -855,10 +918,6 @@ body {
     display: inline-block;
   }
 
-  .md\:h-52 {
-    height: 13rem;
-  }
-
   .md\:px-14 {
     padding-left: 3.5rem;
     padding-right: 3.5rem;
@@ -874,14 +933,14 @@ body {
     padding-bottom: 2rem;
   }
 
-  .md\:text-3xl {
-    font-size: 1.875rem;
-    line-height: 2.25rem;
-  }
-
   .md\:text-4xl {
     font-size: 2.25rem;
     line-height: 2.5rem;
+  }
+
+  .md\:text-5xl {
+    font-size: 3rem;
+    line-height: 1;
   }
 
   .md\:text-7xl\/\[90px\] {
@@ -897,6 +956,11 @@ body {
 
   .lg\:p-0 {
     padding: 0px;
+  }
+
+  .lg\:text-3xl {
+    font-size: 1.875rem;
+    line-height: 2.25rem;
   }
 }
 
