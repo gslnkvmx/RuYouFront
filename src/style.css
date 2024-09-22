@@ -34,8 +34,15 @@ body {
   border-radius: 80px;
 }
 
+.blueBox {
+  position: relative;
+  width: 740px;
+  background: #5a69f0;
+  border-radius: 80px;
+}
+
 .contactBox {
-  width: 500px;
+  width: 552px;
   background: #fdfdfd;
   border-radius: 80px;
 }
@@ -59,10 +66,12 @@ body {
   color: #ebecf5;
 }
 
+.aboutBox {
+  width: 1559px;
+}
+
 .flagsBox {
   position: relative;
-  width: 509px;
-  height: 214px;
   background: #5a69f0;
   border-radius: 36px;
 }
@@ -70,32 +79,89 @@ body {
 .flagsBox > img {
   /* Group 22 */
   position: absolute;
-  width: 146.68px;
-  height: 116px;
-  left: 340px;
-  top: 96px;
+  bottom: 0px;
+  right: 30px;
 }
 
 .laptopBox {
   position: relative;
-  width: 509px;
-  height: 214px;
-  background: #ffffff;
+  background: #fdfdfd;
   border-radius: 36px;
 }
 
 .laptopBox > img {
   /* Group 57 */
   position: absolute;
-  width: 217.16px;
-  height: 119px;
-  left: 260px;
-  top: 96px;
+  bottom: 0px;
+  right: 50px;
 }
 
 .planetBox {
-  width: 509px;
-  height: 452px;
   background-color: #231d26;
+  height: 440px;
   border-radius: 36px;
+}
+
+.bookBox {
+  background-color: #9862a0;
+  height: 440px;
+  border-radius: 36px;
+}
+
+.text-blue {
+  color: #948d9a;
+  font-weight: 500;
+}
+
+.text-pink {
+  color: #f0c6f1;
+  font-weight: 500;
+}
+
+.personalPlanBox {
+  position: relative;
+  background-color: #231d26;
+  height: 500px;
+  border-radius: 36px;
+}
+
+.personalPlanBox > button {
+  background-color: #342c35;
+  color: #dedbd8;
+  font-weight: 700;
+}
+
+.personalPlanBox > button:hover {
+  background-color: #463f47;
+}
+
+.groupsPlanBox {
+  position: relative;
+  background-color: #fdfdfd;
+  height: 500px;
+  border-radius: 36px;
+}
+
+.groupsPlanBox > button {
+  background-color: #e9e7f1;
+  color: #353237;
+  font-weight: 700;
+}
+
+.groupsPlanBox > button:hover {
+  background-color: #cdcbd4;
+}
+
+.invertColor {
+  filter: invert(1);
+}
+
+.text-pgray {
+  color: #cfc3d6;
+  font-weight: 500;
+}
+
+.text-bgray {
+  color: #5a565b;
+  font-weight: 500;
 }
