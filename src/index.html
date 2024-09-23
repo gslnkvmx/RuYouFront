@@ -1,447 +1,286 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css" />
-    <link href="./output.css" rel="stylesheet" />
 
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@0,600;1,600;1,900&display=swap"
-      rel="stylesheet"
-    />
-    <title>Ru+You</title>
-  </head>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" />
+  <link href="./output.css" rel="stylesheet" />
 
-  <body>
-    <div class="header pl-4 py-3 md:py-8">
-      <svg
-        class="lg:ml-11 lg:p-0"
-        width="173"
-        height="36"
-        viewBox="0 0 173 36"
-        fill="none"
-        xmlns="http://www.w3.org/2000/svg"
-      >
-        <path
-          d="M114.608 1.71444L114.984 0.979807H114.159H108.149H107.831L107.693 1.26646L101.399 14.3988L94.7371 1.25642L94.5969 0.979807H94.2868H88.0828H87.2561L87.6337 1.71529L97.7563 21.4303V34.4432V34.948H98.2612H104.077H104.582V34.4432V21.3328L114.608 1.71444ZM137.696 31.6744L137.698 31.6718C139.9 29.1313 140.972 25.6889 140.972 21.4052V14.4742C140.972 10.1909 139.9 6.76282 137.696 4.25347C135.475 1.72524 132.25 0.495121 128.107 0.495121C123.934 0.495121 120.692 1.72437 118.471 4.25346L118.468 4.25639C116.298 6.76575 115.243 10.1927 115.243 14.4742V21.4052C115.243 25.6871 116.298 29.1284 118.466 31.6689L118.466 31.6689L118.471 31.6744C120.692 34.2035 123.934 35.4327 128.107 35.4327C132.25 35.4327 135.475 34.2026 137.696 31.6744ZM132.553 8.81859L132.556 8.82323C133.491 10.021 134 11.8764 134 14.4742V21.4052C134 24.0016 133.492 25.8768 132.553 27.1093C131.641 28.3062 130.197 28.946 128.107 28.946C126.018 28.946 124.574 28.3062 123.662 27.1093C122.723 25.8768 122.215 24.0016 122.215 21.4052V14.4742C122.215 11.8764 122.724 10.021 123.659 8.82323L123.659 8.82325L123.662 8.81857C124.574 7.62162 126.018 6.9818 128.107 6.9818C130.197 6.9818 131.641 7.62162 132.553 8.81857L132.553 8.81859ZM147.381 0.979807H146.876V1.48469V22.6169C146.876 26.4225 147.87 29.5378 149.906 31.9121L149.906 31.9121L149.911 31.9179C152.008 34.2899 155.157 35.4327 159.256 35.4327C163.324 35.4327 166.456 34.2891 168.552 31.9179L168.554 31.9152C170.623 29.541 171.635 26.4245 171.635 22.6169V1.48469V0.979807H171.13H165.169H164.664V1.48469V22.6169C164.664 24.6786 164.211 26.237 163.364 27.3486C162.554 28.3801 161.227 28.946 159.256 28.946C157.284 28.946 155.957 28.3801 155.147 27.3486C154.3 26.237 153.847 24.6786 153.847 22.6169V1.48469V0.979807H153.342H147.381Z"
-          fill="#1C0B0B"
-          stroke="#1C0B0B"
-          stroke-width="1.00976"
-        />
-        <path
-          d="M69.0521 13.5216H69.3243V13.2494V3.99428H76.9461V13.2494V13.5216H77.2183H86.4734V21.1434H77.2183H76.9461V21.4156V30.6707H69.3243V21.4156V21.1434H69.0521H59.797V13.5216H69.0521Z"
-          fill="#1C0B0B"
-          stroke="#F2F2F5"
-          stroke-width="0.544417"
-        />
-        <path
-          d="M18.3751 21.3159C19.7507 20.5429 20.8297 19.4753 21.6018 18.1164C22.4588 16.6081 22.8794 14.8718 22.8794 12.9232V10.8391C22.8794 7.88028 21.9333 5.47693 20.0073 3.68669C18.1073 1.85782 15.4125 0.979802 12.0023 0.979802H1H0.495121V1.48468V34.4431V34.948H1H6.8162H7.32108V34.4431V22.8309H11.7524C13.9114 26.7658 15.7771 30.699 17.3497 34.6307L17.4767 34.948H17.8185H24.4587H25.2251L24.9226 34.2439C23.1026 30.0077 20.9198 25.6984 18.3751 21.3159ZM14.8927 8.28797L14.9004 8.29573L14.9085 8.30314C15.562 8.90218 15.9081 9.72682 15.9081 10.8391V12.9232C15.9081 14.0714 15.5594 14.932 14.9007 15.5634C14.2825 16.1548 13.3444 16.4897 12.0023 16.4897H7.32108V7.32107H12.0023C13.3387 7.32107 14.2737 7.66901 14.8927 8.28797ZM29.7599 0.979802H29.255V1.48468V22.6169C29.255 26.4225 30.2495 29.5378 32.2847 31.9121L32.2846 31.9121L32.2897 31.9179C34.3867 34.2899 37.5359 35.4327 41.6346 35.4327C45.7026 35.4327 48.8349 34.289 50.9311 31.9179L50.9335 31.9152C53.0024 29.541 54.0143 26.4245 54.0143 22.6169V1.48468V0.979802H53.5094H47.5478H47.0429V1.48468V22.6169C47.0429 24.6786 46.5901 26.237 45.7429 27.3486C44.933 28.3801 43.6058 28.946 41.6346 28.946C39.6635 28.946 38.3363 28.3801 37.5264 27.3486C36.6792 26.237 36.2264 24.6786 36.2264 22.6169V1.48468V0.979802H35.7215H29.7599Z"
-          fill="#1C0B0B"
-          stroke="#1C0B0B"
-          stroke-width="1.00976"
-        />
-      </svg>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@0,600;1,600;1,900&display=swap"
+    rel="stylesheet" />
+  <title>Ru+You</title>
+</head>
+
+<body>
+  <div class="header pl-4 py-3 md:py-8">
+    <svg class="lg:ml-11 lg:p-0" width="173" height="36" viewBox="0 0 173 36" fill="none"
+      xmlns="http://www.w3.org/2000/svg">
+      <path
+        d="M114.608 1.71444L114.984 0.979807H114.159H108.149H107.831L107.693 1.26646L101.399 14.3988L94.7371 1.25642L94.5969 0.979807H94.2868H88.0828H87.2561L87.6337 1.71529L97.7563 21.4303V34.4432V34.948H98.2612H104.077H104.582V34.4432V21.3328L114.608 1.71444ZM137.696 31.6744L137.698 31.6718C139.9 29.1313 140.972 25.6889 140.972 21.4052V14.4742C140.972 10.1909 139.9 6.76282 137.696 4.25347C135.475 1.72524 132.25 0.495121 128.107 0.495121C123.934 0.495121 120.692 1.72437 118.471 4.25346L118.468 4.25639C116.298 6.76575 115.243 10.1927 115.243 14.4742V21.4052C115.243 25.6871 116.298 29.1284 118.466 31.6689L118.466 31.6689L118.471 31.6744C120.692 34.2035 123.934 35.4327 128.107 35.4327C132.25 35.4327 135.475 34.2026 137.696 31.6744ZM132.553 8.81859L132.556 8.82323C133.491 10.021 134 11.8764 134 14.4742V21.4052C134 24.0016 133.492 25.8768 132.553 27.1093C131.641 28.3062 130.197 28.946 128.107 28.946C126.018 28.946 124.574 28.3062 123.662 27.1093C122.723 25.8768 122.215 24.0016 122.215 21.4052V14.4742C122.215 11.8764 122.724 10.021 123.659 8.82323L123.659 8.82325L123.662 8.81857C124.574 7.62162 126.018 6.9818 128.107 6.9818C130.197 6.9818 131.641 7.62162 132.553 8.81857L132.553 8.81859ZM147.381 0.979807H146.876V1.48469V22.6169C146.876 26.4225 147.87 29.5378 149.906 31.9121L149.906 31.9121L149.911 31.9179C152.008 34.2899 155.157 35.4327 159.256 35.4327C163.324 35.4327 166.456 34.2891 168.552 31.9179L168.554 31.9152C170.623 29.541 171.635 26.4245 171.635 22.6169V1.48469V0.979807H171.13H165.169H164.664V1.48469V22.6169C164.664 24.6786 164.211 26.237 163.364 27.3486C162.554 28.3801 161.227 28.946 159.256 28.946C157.284 28.946 155.957 28.3801 155.147 27.3486C154.3 26.237 153.847 24.6786 153.847 22.6169V1.48469V0.979807H153.342H147.381Z"
+        fill="#1C0B0B" stroke="#1C0B0B" stroke-width="1.00976" />
+      <path
+        d="M69.0521 13.5216H69.3243V13.2494V3.99428H76.9461V13.2494V13.5216H77.2183H86.4734V21.1434H77.2183H76.9461V21.4156V30.6707H69.3243V21.4156V21.1434H69.0521H59.797V13.5216H69.0521Z"
+        fill="#1C0B0B" stroke="#F2F2F5" stroke-width="0.544417" />
+      <path
+        d="M18.3751 21.3159C19.7507 20.5429 20.8297 19.4753 21.6018 18.1164C22.4588 16.6081 22.8794 14.8718 22.8794 12.9232V10.8391C22.8794 7.88028 21.9333 5.47693 20.0073 3.68669C18.1073 1.85782 15.4125 0.979802 12.0023 0.979802H1H0.495121V1.48468V34.4431V34.948H1H6.8162H7.32108V34.4431V22.8309H11.7524C13.9114 26.7658 15.7771 30.699 17.3497 34.6307L17.4767 34.948H17.8185H24.4587H25.2251L24.9226 34.2439C23.1026 30.0077 20.9198 25.6984 18.3751 21.3159ZM14.8927 8.28797L14.9004 8.29573L14.9085 8.30314C15.562 8.90218 15.9081 9.72682 15.9081 10.8391V12.9232C15.9081 14.0714 15.5594 14.932 14.9007 15.5634C14.2825 16.1548 13.3444 16.4897 12.0023 16.4897H7.32108V7.32107H12.0023C13.3387 7.32107 14.2737 7.66901 14.8927 8.28797ZM29.7599 0.979802H29.255V1.48468V22.6169C29.255 26.4225 30.2495 29.5378 32.2847 31.9121L32.2846 31.9121L32.2897 31.9179C34.3867 34.2899 37.5359 35.4327 41.6346 35.4327C45.7026 35.4327 48.8349 34.289 50.9311 31.9179L50.9335 31.9152C53.0024 29.541 54.0143 26.4245 54.0143 22.6169V1.48468V0.979802H53.5094H47.5478H47.0429V1.48468V22.6169C47.0429 24.6786 46.5901 26.237 45.7429 27.3486C44.933 28.3801 43.6058 28.946 41.6346 28.946C39.6635 28.946 38.3363 28.3801 37.5264 27.3486C36.6792 26.237 36.2264 24.6786 36.2264 22.6169V1.48468V0.979802H35.7215H29.7599Z"
+        fill="#1C0B0B" stroke="#1C0B0B" stroke-width="1.00976" />
+    </svg>
+  </div>
+  <div class="flag_bg h-fit py-8 md:py-28">
+    <div class="flex flex-row justify-center flex-wrap xl:flex-nowrap">
+      <div class="blackBox flex flex-auto grow-0 justify-center items-center py-12">
+        <div class="bBoxText">
+          <p class="mb-0 line-clamp-2 leading-relaxed text-5xl md:text-7xl/[90px] mx-12 md:mx-18">
+            Learn Russian fast
+          </p>
+
+          <p class="mb-0 line-clamp-2 leading-relaxed text-5xl md:text-7xl/[90px] mx-12 md:mx-18">
+            with <br class="hidden md:inline-block" />
+            native speackers
+          </p>
+        </div>
+      </div>
+
+      <div class="contactBox flex min-h-max flex-col flex-auto grow-0 justify-center items-center mt-8 md:mt-0">
+        <h1 class="text-center shrink text-3xl md:text-4xl font-sans font-bold mb-3 mt-2">
+          Get a consultation:
+        </h1>
+        <form class="flex flex-col shrink w-full px-8 md:px-14 py-3">
+          <input type="text" autocomplete="name"
+            class="form-control basis-1/4 bg-slate-100 mb-2 rounded-xl text-gray-900 placeholder:text-gray-400 focus:bg-slate-50 focus:ring-slate-100 p-2 pl-4 placeholder:font-sans text-2xl font-sans font-semibold"
+            placeholder="Name" id="inputName" />
+          <input type="tel" autocomplete="tel"
+            class="form-control basis-1/4 bg-slate-100 mb-2 rounded-xl text-gray-900 placeholder:text-gray-400 focus:bg-slate-50 focus:ring-slate-100 p-2 pl-4 placeholder:font-sans text-2xl font-sans font-semibold"
+            id="exampleInputPassword1" placeholder="Phone number" />
+          <input type="email" autocomplete="email" placeholder="Email"
+            class="form-control basis-1/4 bg-slate-100 mb-2 rounded-xl text-gray-900 placeholder:text-gray-400 focus:bg-slate-50 focus:ring-slate-100 p-2 pl-4 placeholder:font-sans text-2xl font-sans font-semibold"
+            id="exampleInputEmail1" />
+          <button type="submit"
+            class="basis-1/4 rounded-full bg-indigo-600 px-3 py-2 mx-20 mt-2 text-white shadow-sm hover:bg-indigo-500 text-2xl lg:text-3xl font-sans font-semibold">
+            Contact Me
+          </button>
+        </form>
+      </div>
     </div>
-    <div class="flag_bg h-fit py-8 md:py-28">
-      <div class="flex flex-row justify-center flex-wrap xl:flex-nowrap">
-        <div
-          class="blackBox flex flex-auto grow-0 justify-center items-center py-12"
-        >
-          <div class="bBoxText">
-            <p
-              class="mb-0 line-clamp-2 leading-relaxed text-5xl md:text-7xl/[90px] mx-12 md:mx-18"
-            >
-              Learn Russian fast
-            </p>
+  </div>
 
-            <p
-              class="mb-0 line-clamp-2 leading-relaxed text-5xl md:text-7xl/[90px] mx-12 md:mx-18"
-            >
-              with <br class="hidden md:inline-block" />
-              native speackers
+  <div class="flex w-full mt-10 md:mt-20 justify-center">
+    <div class="aboutBox flex-col shrink">
+      <h1 class="text-center md:text-start md:ml-4 text-zinc-900 text-4xl md:text-6xl font-sans font-semibold">
+        About our school
+      </h1>
+
+      <div class="flex flex-col lg:flex-row mt-6 md:mt-12 gap-4 justify-center shrink flex-wrap xl:flex-nowrap">
+        <div class="flex flex-col items-center basis-1/3">
+          <div class="flagsBox md:h-52 h-40 pt-6 px-8 mb-6 shrink">
+            <p class="text-slate-50 mb-0 text-2xl md:text-4xl font-sans font-semibold">
+              All our teachers are native Russian <br class="block 2xl:hidden" /> speakers
             </p>
+            <img src="content/Russian_flags.png" class="w-28 md:w-36" />
+          </div>
+
+          <div class="laptopBox md:h-52 h-40 pt-6 px-8 shrink">
+            <p class="mb-0 line-clamp-2 text-2xl md:text-4xl font-sans font-semibold">
+              Personal approach for each student
+            </p>
+            <img src="content/Notebook.png" class="w-40 md:w-52" />
           </div>
         </div>
 
-        <div
-          class="contactBox flex min-h-max flex-col flex-auto grow-0 justify-center items-center mt-8 md:mt-0"
-        >
-          <h1
-            class="text-center shrink text-3xl md:text-4xl font-sans font-bold mb-3 mt-2"
-          >
+        <div class="planetBox basis-1/3 py-8 px-8 shrink">
+          <p class="mb-3 text-slate-50 line-clamp-2 text-2xl md:text-4xl font-sans font-semibold">
+            Learn from any place of the world
+          </p>
+          <p class="text-blue line-clamp-2 text-xl md:text-3xl font-sans">
+            at our online classes
+          </p>
+          <img src="content/Planet_earth.png" class="mt-6 md:mt-14 h-32 md:h-40 block m-auto" />
+        </div>
+
+        <div class="bookBox basis-1/3 pt-8 px-8 shrink">
+          <p class="mb-3 text-slate-50 text-2xl md:text-4xl font-sans font-semibold">
+            With unique learning programm
+          </p>
+          <p class="text-pink text-xl md:text-3xl font-sans">
+            to learn Russian easy
+          </p>
+          <img src="content/Books.png" class="mt-0 md:mt-3 h-40 md:h-60 block m-auto" />
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="flex w-full mt-10 md:mt-20 justify-center">
+    <div class="aboutBox flex-col shrink">
+      <h1 class="text-center md:text-start md:ml-4 text-zinc-900 text-4xl md:text-6xl font-sans font-semibold">
+        Learning plans
+      </h1>
+
+      <div class="flex flex-col lg:flex-row mt-6 md:mt-12 gap-4 justify-center shrink flex-wrap xl:flex-nowrap">
+        <div class="basis-1/2 personalPlanBox pt-10 pb-10 px-8 md:px-10 lg:px-14 shrink">
+          <div class="flex planHeading justify-between items-center">
+            <p class="mb-3 text-slate-50 text-2xl md:text-4xl font-sans font-semibold">
+              Personal
+            </p>
+            <div class="items-center hidden 2xl:flex">
+              <p class="mb-3 text-slate-50 text-2xl md:text-4xl font-sans font-semibold">
+                From
+              </p>
+              <img src="content/Price_50.png" class="ml-4 w-16 md:w-24 invertColor" />
+            </div>
+            <img src="content/price_40.png" class="w-24 md:w-32 absolute top-8 2xl:top-28 right-8 md:right-11" />
+          </div>
+
+          <div class="points mt-3 md:mt-8 w-full 2xl:w-3/4">
+            <p class="text-pgray flex items-center mb-6 text-2xl md:text-4xl font-sans">
+              <svg width="34" height="36" viewBox="0 0 34 36" fill="none" xmlns="http://www.w3.org/2000/svg"
+                class="mr-6 lg:mr-10 w-6 lg:w-8">
+                <path
+                  d="M17.0488 0.494507L21.5004 13.2577L33.5308 17.9804L21.5004 22.7032L17.0488 35.4664L12.5971 22.7032L0.566711 17.9804L12.5971 13.2577L17.0488 0.494507Z"
+                  fill="#6C79EA" />
+              </svg>
+
+              1 student
+            </p>
+
+            <p class="text-pgray flex items-center mb-6 text-2xl md:text-4xl font-sans">
+              <svg width="34" height="36" viewBox="0 0 34 36" fill="none" xmlns="http://www.w3.org/2000/svg"
+                class="mr-6 lg:mr-10 w-6 lg:w-8">
+                <path
+                  d="M17.0488 0.494507L21.5004 13.2577L33.5308 17.9804L21.5004 22.7032L17.0488 35.4664L12.5971 22.7032L0.566711 17.9804L12.5971 13.2577L17.0488 0.494507Z"
+                  fill="#6C79EA" />
+              </svg>
+
+              any time you want
+            </p>
+
+            <p class="text-pgray flex line-clamp-2 items-center mb-6 text-2xl md:text-4xl font-sans">
+              <svg width="34" height="36" viewBox="0 0 34 36" fill="none" xmlns="http://www.w3.org/2000/svg"
+                class="mr-6 lg:mr-10 w-6 md:w-8">
+                <path
+                  d="M17.0488 0.494507L21.5004 13.2577L33.5308 17.9804L21.5004 22.7032L17.0488 35.4664L12.5971 22.7032L0.566711 17.9804L12.5971 13.2577L17.0488 0.494507Z"
+                  fill="#6C79EA" />
+              </svg>
+
+              personal <br />
+              consultations in chat
+            </p>
+          </div>
+
+          <button onclick="window.scrollTo({ left: 0, top: document.body.scrollHeight, behavior: 'smooth' })"
+            class="w-full rounded-xl mt-4 xl:mt-8 py-3 text-2xl md:text-3xl font-sans text-center">
+            I want to learn here!
+          </button>
+        </div>
+
+        <div class="basis-1/2 groupsPlanBox pt-10 pb-10 px-8 md:px-10 lg:px-14 shrink">
+          <div class="flex planHeading justify-between items-center">
+            <p class="mb-3 text-2xl md:text-4xl font-sans font-semibold">
+              Personal
+            </p>
+            <div class="items-center hidden 2xl:flex">
+              <p class="mb-3 text-2xl md:text-4xl font-sans font-semibold">
+                From
+              </p>
+              <img src="content/Price_50.png" class="ml-4 w-16 md:w-24" />
+            </div>
+            <img src="content/price_20.png" class="w-24 md:w-32 absolute top-8 2xl:top-28 right-8 md:right-11" />
+          </div>
+
+          <div class="points mt-3 md:mt-8 w-full 2xl:w-3/4">
+            <p class="text-bgray flex items-center mb-6 text-2xl md:text-4xl font-sans">
+              <svg width="34" height="36" viewBox="0 0 34 36" fill="none" xmlns="http://www.w3.org/2000/svg"
+                class="mr-6 lg:mr-10 w-6 lg:w-8">
+                <path
+                  d="M17.0488 0.494507L21.5004 13.2577L33.5308 17.9804L21.5004 22.7032L17.0488 35.4664L12.5971 22.7032L0.566711 17.9804L12.5971 13.2577L17.0488 0.494507Z"
+                  fill="#6C79EA" />
+              </svg>
+
+              3-6 students
+            </p>
+
+            <p class="text-bgray flex items-center mb-6 text-2xl md:text-4xl font-sans">
+              <svg width="34" height="36" viewBox="0 0 34 36" fill="none" xmlns="http://www.w3.org/2000/svg"
+                class="mr-6 lg:mr-10 w-6 lg:w-8">
+                <path
+                  d="M17.0488 0.494507L21.5004 13.2577L33.5308 17.9804L21.5004 22.7032L17.0488 35.4664L12.5971 22.7032L0.566711 17.9804L12.5971 13.2577L17.0488 0.494507Z"
+                  fill="#6C79EA" />
+              </svg>
+
+              speaking practice
+            </p>
+
+            <p class="text-bgray flex items-center mb-6 text-2xl md:text-4xl font-sans">
+              <svg width="34" height="36" viewBox="0 0 34 36" fill="none" xmlns="http://www.w3.org/2000/svg"
+                class="mr-6 lg:mr-10 w-6 md:w-8">
+                <path
+                  d="M17.0488 0.494507L21.5004 13.2577L33.5308 17.9804L21.5004 22.7032L17.0488 35.4664L12.5971 22.7032L0.566711 17.9804L12.5971 13.2577L17.0488 0.494507Z"
+                  fill="#6C79EA" />
+              </svg>
+
+              groups with same<br />
+              knowledge level
+            </p>
+          </div>
+
+          <button onclick="window.scrollTo({ left: 0, top: document.body.scrollHeight, behavior: 'smooth' })"
+            class="w-full rounded-xl mt-4 xl:mt-8 py-3 text-2xl md:text-3xl font-sans font-bold text-center">
+            I want to learn here!
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="w-full h-fit mt-10 md:mt-18">
+    <div class="flex-col">
+      <h1
+        class="text-center md:text-start md:ml-4 linear-wipe text-zinc-900 text-4xl mb-6 md:mb-12 md:text-6xl text-center font-sans font-semibold">
+        Get a free consultation
+      </h1>
+
+      <div class="flex flex-row justify-center flex-wrap xl:flex-nowrap">
+        <div class="blueBox flex-col shrink grow-0 py-6 px-8 md:py-12 md:px-16">
+          <p class="text-slate-50 mb-0 text-2xl md:text-4xl font-sans font-semibold">
+            Any questions left?
+          </p>
+
+          <p class="text-slate-50 md:mt-8 text-2xl md:text-3xl font-sans font-semibold">
+            Just fill in you information and <br />
+            we will contact you.
+          </p>
+
+          <img src="content/Question_cloud.png"
+            class="w-28 md:w-40 block m-auto mt-8 sm:absolute sm:bottom-6 md:bottom-10 sm:right-32 md:right-11" />
+        </div>
+
+        <div class="contactBox flex min-h-max flex-col flex-auto grow-0 justify-center items-center mt-8 md:mt-0">
+          <h1 class="text-center shrink text-3xl md:text-4xl font-sans font-bold mb-3 mt-2">
             Get a consultation:
           </h1>
+
           <form class="flex flex-col shrink w-full px-8 md:px-14 py-3">
-            <input
-              type="text"
-              autocomplete="name"
+            <input type="text" autocomplete="name"
               class="form-control basis-1/4 bg-slate-100 mb-2 rounded-xl text-gray-900 placeholder:text-gray-400 focus:bg-slate-50 focus:ring-slate-100 p-2 pl-4 placeholder:font-sans text-2xl font-sans font-semibold"
-              placeholder="Name"
-              id="inputName"
-            />
-            <input
-              type="tel"
-              autocomplete="tel"
+              placeholder="Name" id="inputName" />
+            <input type="tel" autocomplete="tel"
               class="form-control basis-1/4 bg-slate-100 mb-2 rounded-xl text-gray-900 placeholder:text-gray-400 focus:bg-slate-50 focus:ring-slate-100 p-2 pl-4 placeholder:font-sans text-2xl font-sans font-semibold"
-              id="exampleInputPassword1"
-              placeholder="Phone number"
-            />
-            <input
-              type="email"
-              autocomplete="email"
-              placeholder="Email"
+              id="exampleInputPassword1" placeholder="Phone number" />
+            <input type="email" autocomplete="email" placeholder="Email"
               class="form-control basis-1/4 bg-slate-100 mb-2 rounded-xl text-gray-900 placeholder:text-gray-400 focus:bg-slate-50 focus:ring-slate-100 p-2 pl-4 placeholder:font-sans text-2xl font-sans font-semibold"
-              id="exampleInputEmail1"
-            />
-            <button
-              type="submit"
-              class="basis-1/4 rounded-full bg-indigo-600 px-3 py-2 mx-20 mt-2 text-white shadow-sm hover:bg-indigo-500 text-2xl lg:text-3xl font-sans font-semibold"
-            >
+              id="exampleInputEmail1" />
+            <button type="submit"
+              class="basis-1/4 rounded-full bg-indigo-600 px-3 py-2 mx-20 mt-2 text-white shadow-sm hover:bg-indigo-500 text-2xl lg:text-3xl font-sans font-semibold">
               Contact Me
             </button>
           </form>
         </div>
       </div>
     </div>
+  </div>
+</body>
 
-    <div class="flex w-full mt-20 justify-center">
-      <div class="aboutBox flex-col shrink">
-        <h1
-          class="ml-2 text-zinc-900 text-5xl md:text-6xl font-sans font-semibold"
-        >
-          About our school
-        </h1>
-
-        <div
-          class="flex flex-col lg:flex-row mt-12 gap-4 justify-center shrink flex-wrap xl:flex-nowrap"
-        >
-          <div class="flex flex-col items-center basis-1/3">
-            <div class="flagsBox md:h-52 h-40 pt-6 px-8 mb-6 shrink">
-              <p
-                class="text-slate-50 mb-0 line-clamp-2 text-2xl md:text-4xl font-sans font-semibold"
-              >
-                All our teachers are native Russian speakers
-              </p>
-              <img src="content/Russian_flags.png" class="w-28 md:w-36" />
-            </div>
-
-            <div class="laptopBox md:h-52 h-40 pt-6 px-8 shrink">
-              <p
-                class="mb-0 line-clamp-2 text-2xl md:text-4xl font-sans font-semibold"
-              >
-                Personal approach for each student
-              </p>
-              <img src="content/Notebook.png" class="w-40 md:w-52" />
-            </div>
-          </div>
-
-          <div class="planetBox basis-1/3 py-8 px-8 shrink">
-            <p
-              class="mb-3 text-slate-50 line-clamp-2 text-2xl md:text-4xl font-sans font-semibold"
-            >
-              Learn from any place of the world
-            </p>
-            <p class="text-blue line-clamp-2 text-xl md:text-3xl font-sans">
-              at our online classes
-            </p>
-            <img
-              src="content/Planet_earth.png"
-              class="mt-6 md:mt-14 h-32 md:h-40 block m-auto"
-            />
-          </div>
-
-          <div class="bookBox basis-1/3 pt-8 px-8 shrink">
-            <p
-              class="mb-3 text-slate-50 text-2xl md:text-4xl font-sans font-semibold"
-            >
-              With unique learning programm
-            </p>
-            <p class="text-pink text-xl md:text-3xl font-sans">
-              to learn Russian easy
-            </p>
-            <img
-              src="content/Books.png"
-              class="mt-0 md:mt-3 h-40 md:h-60 block m-auto"
-            />
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <div class="flex w-full mt-20 justify-center">
-      <div class="aboutBox flex-col shrink">
-        <h1
-          class="ml-2 text-zinc-900 text-5xl md:text-6xl font-sans font-semibold"
-        >
-          Learning plans
-        </h1>
-
-        <div
-          class="flex flex-col lg:flex-row mt-12 gap-4 justify-center shrink flex-wrap xl:flex-nowrap"
-        >
-          <div
-            class="basis-1/2 personalPlanBox pt-10 pb-10 px-8 md:px-10 lg:px-14 shrink"
-          >
-            <div class="flex planHeading justify-between items-center">
-              <p
-                class="mb-3 text-slate-50 text-2xl md:text-4xl font-sans font-semibold"
-              >
-                Personal
-              </p>
-              <div class="items-center hidden 2xl:flex">
-                <p
-                  class="mb-3 text-slate-50 text-2xl md:text-4xl font-sans font-semibold"
-                >
-                  From
-                </p>
-                <img
-                  src="content/Price_50.png"
-                  class="ml-4 w-16 md:w-24 invertColor"
-                />
-              </div>
-              <img
-                src="content/price_40.png"
-                class="w-24 md:w-32 absolute top-8 2xl:top-28 right-8 md:right-11"
-              />
-            </div>
-
-            <div class="points mt-3 md:mt-8 w-full 2xl:w-3/4">
-              <p
-                class="text-pgray flex items-center mb-6 text-2xl md:text-4xl font-sans"
-              >
-                <svg
-                  width="34"
-                  height="36"
-                  viewBox="0 0 34 36"
-                  fill="none"
-                  xmlns="http://www.w3.org/2000/svg"
-                  class="mr-6 lg:mr-10 w-6 lg:w-8"
-                >
-                  <path
-                    d="M17.0488 0.494507L21.5004 13.2577L33.5308 17.9804L21.5004 22.7032L17.0488 35.4664L12.5971 22.7032L0.566711 17.9804L12.5971 13.2577L17.0488 0.494507Z"
-                    fill="#6C79EA"
-                  />
-                </svg>
-
-                1 student
-              </p>
-
-              <p
-                class="text-pgray flex items-center mb-6 text-2xl md:text-4xl font-sans"
-              >
-                <svg
-                  width="34"
-                  height="36"
-                  viewBox="0 0 34 36"
-                  fill="none"
-                  xmlns="http://www.w3.org/2000/svg"
-                  class="mr-6 lg:mr-10 w-6 lg:w-8"
-                >
-                  <path
-                    d="M17.0488 0.494507L21.5004 13.2577L33.5308 17.9804L21.5004 22.7032L17.0488 35.4664L12.5971 22.7032L0.566711 17.9804L12.5971 13.2577L17.0488 0.494507Z"
-                    fill="#6C79EA"
-                  />
-                </svg>
-
-                any time you want
-              </p>
-
-              <p
-                class="text-pgray flex line-clamp-2 items-center mb-6 text-2xl md:text-4xl font-sans"
-              >
-                <svg
-                  width="34"
-                  height="36"
-                  viewBox="0 0 34 36"
-                  fill="none"
-                  xmlns="http://www.w3.org/2000/svg"
-                  class="mr-6 lg:mr-10 w-6 md:w-8"
-                >
-                  <path
-                    d="M17.0488 0.494507L21.5004 13.2577L33.5308 17.9804L21.5004 22.7032L17.0488 35.4664L12.5971 22.7032L0.566711 17.9804L12.5971 13.2577L17.0488 0.494507Z"
-                    fill="#6C79EA"
-                  />
-                </svg>
-
-                personal <br />
-                consultations in chat
-              </p>
-            </div>
-
-            <button
-              class="w-full rounded-xl mt-4 xl:mt-8 py-3 text-2xl md:text-3xl font-sans text-center"
-            >
-              I want to learn here!
-            </button>
-          </div>
-
-          <div
-            class="basis-1/2 groupsPlanBox pt-10 pb-10 px-8 md:px-10 lg:px-14 shrink"
-          >
-            <div class="flex planHeading justify-between items-center">
-              <p class="mb-3 text-2xl md:text-4xl font-sans font-semibold">
-                Personal
-              </p>
-              <div class="items-center hidden 2xl:flex">
-                <p class="mb-3 text-2xl md:text-4xl font-sans font-semibold">
-                  From
-                </p>
-                <img src="content/Price_50.png" class="ml-4 w-16 md:w-24" />
-              </div>
-              <img
-                src="content/price_20.png"
-                class="w-24 md:w-32 absolute top-8 2xl:top-28 right-8 md:right-11"
-              />
-            </div>
-
-            <div class="points mt-3 md:mt-8 w-full 2xl:w-3/4">
-              <p
-                class="text-bgray flex items-center mb-6 text-2xl md:text-4xl font-sans"
-              >
-                <svg
-                  width="34"
-                  height="36"
-                  viewBox="0 0 34 36"
-                  fill="none"
-                  xmlns="http://www.w3.org/2000/svg"
-                  class="mr-6 lg:mr-10 w-6 lg:w-8"
-                >
-                  <path
-                    d="M17.0488 0.494507L21.5004 13.2577L33.5308 17.9804L21.5004 22.7032L17.0488 35.4664L12.5971 22.7032L0.566711 17.9804L12.5971 13.2577L17.0488 0.494507Z"
-                    fill="#6C79EA"
-                  />
-                </svg>
-
-                3-6 students
-              </p>
-
-              <p
-                class="text-bgray flex items-center mb-6 text-2xl md:text-4xl font-sans"
-              >
-                <svg
-                  width="34"
-                  height="36"
-                  viewBox="0 0 34 36"
-                  fill="none"
-                  xmlns="http://www.w3.org/2000/svg"
-                  class="mr-6 lg:mr-10 w-6 lg:w-8"
-                >
-                  <path
-                    d="M17.0488 0.494507L21.5004 13.2577L33.5308 17.9804L21.5004 22.7032L17.0488 35.4664L12.5971 22.7032L0.566711 17.9804L12.5971 13.2577L17.0488 0.494507Z"
-                    fill="#6C79EA"
-                  />
-                </svg>
-
-                speaking practice
-              </p>
-
-              <p
-                class="text-bgray flex items-center mb-6 text-2xl md:text-4xl font-sans"
-              >
-                <svg
-                  width="34"
-                  height="36"
-                  viewBox="0 0 34 36"
-                  fill="none"
-                  xmlns="http://www.w3.org/2000/svg"
-                  class="mr-6 lg:mr-10 w-6 md:w-8"
-                >
-                  <path
-                    d="M17.0488 0.494507L21.5004 13.2577L33.5308 17.9804L21.5004 22.7032L17.0488 35.4664L12.5971 22.7032L0.566711 17.9804L12.5971 13.2577L17.0488 0.494507Z"
-                    fill="#6C79EA"
-                  />
-                </svg>
-
-                groups with same<br />
-                knowledge level
-              </p>
-            </div>
-
-            <button
-              class="w-full rounded-xl mt-4 xl:mt-8 py-3 text-2xl md:text-3xl font-sans font-bold text-center"
-            >
-              I want to learn here!
-            </button>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <div class="w-full h-fit mt-16">
-      <div class="flex-col">
-        <h1
-          class="ml-2 linear-wipe text-zinc-900 text-5xl mb-12 md:text-6xl text-center font-sans font-semibold"
-        >
-          Get a free consultation
-        </h1>
-
-        <div class="flex flex-row justify-center flex-wrap xl:flex-nowrap">
-          <div
-            class="blueBox flex-col shrink grow-0 py-6 px-8 md:py-12 md:px-16"
-          >
-            <p
-              class="text-slate-50 mb-0 text-2xl md:text-4xl font-sans font-semibold"
-            >
-              Any questions left?
-            </p>
-
-            <p
-              class="text-slate-50 md:mt-8 text-2xl md:text-3xl font-sans font-semibold"
-            >
-              Just fill in you information and <br />
-              we will contact you.
-            </p>
-
-            <img
-              src="content/Question_cloud.png"
-              class="w-28 md:w-40 block m-auto mt-8 sm:absolute sm:bottom-6 md:bottom-10 sm:right-32 md:right-11"
-            />
-          </div>
-
-          <div
-            class="contactBox flex min-h-max flex-col flex-auto grow-0 justify-center items-center mt-8 md:mt-0"
-          >
-            <h1
-              class="text-center shrink text-3xl md:text-4xl font-sans font-bold mb-3 mt-2"
-            >
-              Get a consultation:
-            </h1>
-
-            <form class="flex flex-col shrink w-full px-8 md:px-14 py-3">
-              <input
-                type="text"
-                autocomplete="name"
-                class="form-control basis-1/4 bg-slate-100 mb-2 rounded-xl text-gray-900 placeholder:text-gray-400 focus:bg-slate-50 focus:ring-slate-100 p-2 pl-4 placeholder:font-sans text-2xl font-sans font-semibold"
-                placeholder="Name"
-                id="inputName"
-              />
-              <input
-                type="tel"
-                autocomplete="tel"
-                class="form-control basis-1/4 bg-slate-100 mb-2 rounded-xl text-gray-900 placeholder:text-gray-400 focus:bg-slate-50 focus:ring-slate-100 p-2 pl-4 placeholder:font-sans text-2xl font-sans font-semibold"
-                id="exampleInputPassword1"
-                placeholder="Phone number"
-              />
-              <input
-                type="email"
-                autocomplete="email"
-                placeholder="Email"
-                class="form-control basis-1/4 bg-slate-100 mb-2 rounded-xl text-gray-900 placeholder:text-gray-400 focus:bg-slate-50 focus:ring-slate-100 p-2 pl-4 placeholder:font-sans text-2xl font-sans font-semibold"
-                id="exampleInputEmail1"
-              />
-              <button
-                type="submit"
-                class="basis-1/4 rounded-full bg-indigo-600 px-3 py-2 mx-20 mt-2 text-white shadow-sm hover:bg-indigo-500 text-2xl lg:text-3xl font-sans font-semibold"
-              >
-                Contact Me
-              </button>
-            </form>
-          </div>
-        </div>
-      </div>
-    </div>
-  </body>
 </html>

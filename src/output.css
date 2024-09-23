@@ -648,6 +648,14 @@ video {
   margin-top: 2rem;
 }
 
+.ml-8 {
+  margin-left: 2rem;
+}
+
+.mt-10 {
+  margin-top: 2.5rem;
+}
+
 .line-clamp-2 {
   overflow: hidden;
   display: -webkit-box;
@@ -864,6 +872,11 @@ video {
 .text-xl {
   font-size: 1.25rem;
   line-height: 1.75rem;
+}
+
+.text-4xl {
+  font-size: 2.25rem;
+  line-height: 2.5rem;
 }
 
 .font-bold {
@@ -1136,6 +1149,30 @@ body {
     margin-top: 2rem;
   }
 
+  .md\:ml-2 {
+    margin-left: 0.5rem;
+  }
+
+  .md\:mt-20 {
+    margin-top: 5rem;
+  }
+
+  .md\:mt-12 {
+    margin-top: 3rem;
+  }
+
+  .md\:ml-4 {
+    margin-left: 1rem;
+  }
+
+  .md\:ml-5 {
+    margin-left: 1.25rem;
+  }
+
+  .md\:mb-12 {
+    margin-bottom: 3rem;
+  }
+
   .md\:inline-block {
     display: inline-block;
   }
@@ -1206,6 +1243,10 @@ body {
     padding-bottom: 2rem;
   }
 
+  .md\:text-start {
+    text-align: start;
+  }
+
   .md\:text-3xl {
     font-size: 1.875rem;
     line-height: 2.25rem;
@@ -1236,6 +1277,10 @@ body {
     margin-right: 2.5rem;
   }
 
+  .lg\:hidden {
+    display: none;
+  }
+
   .lg\:w-8 {
     width: 2rem;
   }
@@ -1264,6 +1309,10 @@ body {
     margin-top: 2rem;
   }
 
+  .xl\:hidden {
+    display: none;
+  }
+
   .xl\:flex-nowrap {
     flex-wrap: nowrap;
   }
@@ -1276,6 +1325,10 @@ body {
 
   .\32xl\:flex {
     display: flex;
+  }
+
+  .\32xl\:hidden {
+    display: none;
   }
 
   .\32xl\:w-3\/4 {
