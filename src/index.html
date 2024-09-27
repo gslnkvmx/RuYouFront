@@ -74,9 +74,15 @@
           >
             Get a consultation:
           </h1>
-          <form class="Form1 flex flex-col shrink w-full px-8 md:px-14 py-3">
+          <form
+            name="contact-1"
+            method="POST"
+            data-netlify="true"
+            class="Form1 flex flex-col shrink w-full px-8 md:px-14 py-3"
+          >
             <input
               type="text"
+              name="name"
               autocomplete="name"
               class="userName form-control basis-1/4 bg-slate-100 mb-2 rounded-xl text-gray-900 placeholder:text-gray-400 focus:bg-slate-50 focus:ring-slate-100 p-2 pl-4 placeholder:font-sans text-2xl font-sans font-semibold"
               placeholder="Name"
@@ -85,6 +91,7 @@
             />
             <input
               type="tel"
+              name="phone"
               autocomplete="tel"
               class="userPhone form-control basis-1/4 bg-slate-100 mb-2 rounded-xl text-gray-900 placeholder:text-gray-400 focus:bg-slate-50 focus:ring-slate-100 p-2 pl-4 placeholder:font-sans text-2xl font-sans font-semibold"
               id="exampleInputPassword1"
@@ -93,6 +100,7 @@
             />
             <input
               type="email"
+              name="email"
               autocomplete="email"
               placeholder="Email"
               class="userEmail form-control basis-1/4 bg-slate-100 mb-2 rounded-xl text-gray-900 placeholder:text-gray-400 focus:bg-slate-50 focus:ring-slate-100 p-2 pl-4 placeholder:font-sans text-2xl font-sans font-semibold"
@@ -417,9 +425,15 @@
               Get a consultation:
             </h1>
 
-            <form class="Form2 flex flex-col shrink w-full px-8 md:px-14 py-3">
+            <form
+              name="contact-2"
+              method="post"
+              data-netlify="true"
+              class="Form2 flex flex-col shrink w-full px-8 md:px-14 py-3"
+            >
               <input
                 type="text"
+                name="name"
                 autocomplete="name"
                 class="userName2 form-control basis-1/4 bg-slate-100 mb-2 rounded-xl text-gray-900 placeholder:text-gray-400 focus:bg-slate-50 focus:ring-slate-100 p-2 pl-4 placeholder:font-sans text-2xl font-sans font-semibold"
                 placeholder="Name"
@@ -428,6 +442,7 @@
               />
               <input
                 type="tel"
+                name="phone"
                 autocomplete="tel"
                 class="userPhone2 form-control basis-1/4 bg-slate-100 mb-2 rounded-xl text-gray-900 placeholder:text-gray-400 focus:bg-slate-50 focus:ring-slate-100 p-2 pl-4 placeholder:font-sans text-2xl font-sans font-semibold"
                 id="exampleInputPassword1"
@@ -436,6 +451,7 @@
               />
               <input
                 type="email"
+                name="email"
                 autocomplete="email"
                 placeholder="Email"
                 class="userEmail2 form-control basis-1/4 bg-slate-100 mb-2 rounded-xl text-gray-900 placeholder:text-gray-400 focus:bg-slate-50 focus:ring-slate-100 p-2 pl-4 placeholder:font-sans text-2xl font-sans font-semibold"
@@ -453,50 +469,5 @@
         </div>
       </div>
     </div>
-
-    <script>
-      var userName = document.querySelector(".userName");
-      var userPhone = document.querySelector(".userPhone");
-      var userEmail = document.querySelector(".userEmail");
-      var submit = document.querySelector(".Form1");
-
-      var userName2 = document.querySelector(".userName2");
-      var userPhone2 = document.querySelector(".userPhone2");
-      var userEmail2 = document.querySelector(".userEmail2");
-      var submit2 = document.querySelector(".Form2");
-
-      submit.addEventListener("submit", () => {
-        var obj = {
-          name: userName.value,
-          email: userEmail.value,
-          phone: userPhone.value,
-        };
-
-        fetch("/persInfo", {
-          method: "POST",
-          headers: {
-            "Content-type": "application/json",
-          },
-          body: JSON.stringify(obj),
-        });
-      });
-
-      submit2.addEventListener("submit", () => {
-        console.log(userEmail);
-        var obj = {
-          name: userName2.value,
-          email: userEmail2.value,
-          phone: userPhone2.value,
-        };
-
-        fetch("/persInfo", {
-          method: "POST",
-          headers: {
-            "Content-type": "application/json",
-          },
-          body: JSON.stringify(obj),
-        });
-      });
-    </script>
   </body>
 </html>
