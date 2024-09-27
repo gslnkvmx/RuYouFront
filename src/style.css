@@ -165,3 +165,17 @@ body {
   color: #5a565b;
   font-weight: 500;
 }
+
+hr {
+  border: solid 2px gainsboro;
+  display: block;
+  margin: auto;
+  width: 80%;
+  height: 1px;
+}
+
+.footerText {
+  width: 80%;
+  display: block;
+  margin: auto;
+}
