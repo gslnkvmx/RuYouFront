@@ -558,18 +558,6 @@ video {
   position: static;
 }
 
-.absolute {
-  position: absolute;
-}
-
-.right-8 {
-  right: 2rem;
-}
-
-.top-8 {
-  top: 2rem;
-}
-
 .m-auto {
   margin: auto;
 }
@@ -600,10 +588,6 @@ video {
   margin-bottom: 1.5rem;
 }
 
-.ml-4 {
-  margin-left: 1rem;
-}
-
 .mr-6 {
   margin-right: 1.5rem;
 }
@@ -614,6 +598,10 @@ video {
 
 .mt-10 {
   margin-top: 2.5rem;
+}
+
+.mt-14 {
+  margin-top: 3.5rem;
 }
 
 .mt-2 {
@@ -636,18 +624,6 @@ video {
   margin-top: 2rem;
 }
 
-.mt-12 {
-  margin-top: 3rem;
-}
-
-.mt-16 {
-  margin-top: 4rem;
-}
-
-.mt-14 {
-  margin-top: 3.5rem;
-}
-
 .line-clamp-2 {
   overflow: hidden;
   display: -webkit-box;
@@ -667,6 +643,10 @@ video {
   display: none;
 }
 
+.h-14 {
+  height: 3.5rem;
+}
+
 .h-32 {
   height: 8rem;
 }
@@ -680,29 +660,9 @@ video {
   height: fit-content;
 }
 
-.h-12 {
-  height: 3rem;
-}
-
-.h-14 {
-  height: 3.5rem;
-}
-
-.h-24 {
-  height: 6rem;
-}
-
 .min-h-max {
   min-height: -moz-max-content;
   min-height: max-content;
-}
-
-.w-16 {
-  width: 4rem;
-}
-
-.w-24 {
-  width: 6rem;
 }
 
 .w-28 {
@@ -731,10 +691,6 @@ video {
 
 .grow-0 {
   flex-grow: 0;
-}
-
-.basis-1\/2 {
-  flex-basis: 50%;
 }
 
 .basis-1\/3 {
@@ -900,13 +856,17 @@ video {
   font-weight: 600;
 }
 
+.font-medium {
+  font-weight: 500;
+}
+
 .leading-relaxed {
   line-height: 1.625;
 }
 
-.text-gray-500 {
+.text-gray-400 {
   --tw-text-opacity: 1;
-  color: rgb(107 114 128 / var(--tw-text-opacity));
+  color: rgb(156 163 175 / var(--tw-text-opacity));
 }
 
 .text-gray-900 {
@@ -927,11 +887,6 @@ video {
 .text-zinc-900 {
   --tw-text-opacity: 1;
   color: rgb(24 24 27 / var(--tw-text-opacity));
-}
-
-.text-gray-400 {
-  --tw-text-opacity: 1;
-  color: rgb(156 163 175 / var(--tw-text-opacity));
 }
 
 .shadow-sm {
@@ -1076,14 +1031,24 @@ body {
   border-radius: 36px;
 }
 
-.groupsPlanBox > button {
+.groupsSmPlanBox > button {
   background-color: #e9e7f1;
   color: #353237;
   font-weight: 700;
 }
 
-.groupsPlanBox > button:hover {
+.groupsSmPlanBox > button:hover {
   background-color: #cdcbd4;
+}
+
+.groupsLgPlanBox > button {
+  background-color: #4552ce;
+  color: #fdfdfd;
+  font-weight: 700;
+}
+
+.groupsLgPlanBox > button:hover {
+  background-color: #4a59df;
 }
 
 .invertColor {
@@ -1112,6 +1077,10 @@ hr {
   width: 80%;
   display: block;
   margin: auto;
+}
+
+.blueBg {
+  background: #5a69f0;
 }
 
 .placeholder\:font-sans::-moz-placeholder {
@@ -1218,14 +1187,6 @@ hr {
     height: 15rem;
   }
 
-  .md\:w-24 {
-    width: 6rem;
-  }
-
-  .md\:w-32 {
-    width: 8rem;
-  }
-
   .md\:w-36 {
     width: 9rem;
   }
@@ -1330,29 +1291,17 @@ hr {
 }
 
 @media (min-width: 1280px) {
-  .xl\:mt-8 {
-    margin-top: 2rem;
-  }
-
   .xl\:flex-nowrap {
     flex-wrap: nowrap;
   }
 }
 
 @media (min-width: 1536px) {
-  .\32xl\:top-28 {
-    top: 7rem;
-  }
-
-  .\32xl\:flex {
-    display: flex;
+  .\32xl\:mt-14 {
+    margin-top: 3.5rem;
   }
 
   .\32xl\:hidden {
     display: none;
-  }
-
-  .\32xl\:w-3\/4 {
-    width: 75%;
   }
 }

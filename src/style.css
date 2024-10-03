@@ -142,14 +142,24 @@ body {
   border-radius: 36px;
 }
 
-.groupsPlanBox > button {
+.groupsSmPlanBox > button {
   background-color: #e9e7f1;
   color: #353237;
   font-weight: 700;
 }
 
-.groupsPlanBox > button:hover {
+.groupsSmPlanBox > button:hover {
   background-color: #cdcbd4;
+}
+
+.groupsLgPlanBox > button {
+  background-color: #4552ce;
+  color: #fdfdfd;
+  font-weight: 700;
+}
+
+.groupsLgPlanBox > button:hover {
+  background-color: #4a59df;
 }
 
 .invertColor {
@@ -178,4 +188,8 @@ hr {
   width: 80%;
   display: block;
   margin: auto;
+}
+
+.blueBg {
+  background: #5a69f0;
 }
